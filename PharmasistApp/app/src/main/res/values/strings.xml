@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">Pharmacie App</string>
+    <string name="login">Se connecter</string>
+    <string name="register">Inscrire</string>
+    <string name="back">Retour</string>
+    <string name="first_name">Nom</string>
+    <string name="last_name">Prénom</string>
+    <string name="phone_number">Téléphone</string>
+    <string name="user_name">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="pharmasist">Pharmacie</string>
+    <string name="client">Client</string>
+    <string name="start_moorning">Début 1</string>
+    <string name="end_moorning">Fin 1</string>
+    <string name="start_evening">Début 2</string>
+    <string name="end_evening">Fin 2</string>
+    <string name="blank_field">Ce champ doit ètre remplir !</string>
+    <string name="name_syntaxe">Ce champ doit ètre contient juste des lettre (a-z) maj ou min</string>
+    <string name="password_syntaxe">Ce champ doit ètre contient juste des lettre (a-z) maj ou min</string>
+    <string name="phone_syntaxe">Ce champ doit ètre commancer par(05 ou 06 ou bien 07) et ne dépasse pas 10 chiffres</string>
+    <string name="username_syntaxe">Ce champ doit ètre contient la syntaxe d`un email aaa@aaa.aaa</string>
+    <string name="number_syntaxe">Ce champ accept juste de nombre (0-9)</string>
+    <string name="price_syntaxe">Ce champ accept la forme des prix par ex: 10000.00</string>
+    <string name="dose_syntaxe">Essayer d`arrivé à cette syntaxe par ex: 50/100 ml, 100 ml ou bien 0.01 ml</string>
+    <string name="time_syntaxe">la syntaxe doit ètre hr:min:sec avec 24h syntaxe</string>
+    <string name="syntaxe_wrong">Vérifier les charactère de ce champ !</string>
+    <string name="gps_disable">Activer le GPS SVP !</string>
+    <string name="permession_denied">Permession réfuser !</string>
+    <string name="loading">Attendez svp !</string>
+    <string name="cheking">Vérification...!</string>
+    <string name="check_your_internet">Vérifier la connexion internet !</string>
+    <string name="user_exist">Email existe déja !</string>
+    <string name="phone_exist">Numéro téléphone existe déja !</string>
+    <string name="location_err">Erreur tanque prend votre position !</string>
+    <string name="err_getting_info">Erreur dans la récupiration des information</string>
+    <string name="user_saved">L`inscription a été réussi</string>
+    <string name="server_response">Réponse du Serveur</string>
+    <string name="user_pass_wrong">Email ou mot de pass est incorrect</string>
+    <string name="product_added">Produit Ajouter</string>
+    <string name="register_infos">
+        - Tout les champs sont important. \n
+        - Vous ne pouvez vous inscrire que si vous êtes pharmacien. \n
+        - Lorsque vous souhaitez vous inscrire, vous devez être dans votre pharmacie car l`application utilise votre position. \n\n
+                    Merci de votre compréhension....
+    </string>
+    <string name="i_inderstand">J`ai compris</string>
+    <string name="profile">Profile</string>
+    <string name="product_managment">Ajouter Produit</string>
+    <string name="about_us">A propos</string>
+    <string name="save">Enregistré</string>
+    <string name="update_location">Modifier la position du pharmacie</string>
+    <string name="open">Ouvert</string>
+    <string name="close">Fermé</string>
+    <string name="user_updated">Données enregistré.</string>
+    <string name="attention">Attention !</string>
+    <string name="search_here">Chercher ici</string>
+    <string name="product_name">Nom comercial</string>
+    <string name="product_form">La forme</string>
+    <string name="product_cntr">La dose</string>
+    <string name="product_quantity">La quantité</string>
+    <string name="product_price">Prix</string>
+    <string name="distance">Distance</string>
+    <string name="full_name">Pharmacie de</string>
+    <string name="use_it_if_you_change_position">
+        Cette option utilisé si vous avez changé votre pharmacie à un autre emplacement...
+    </string>
+    <string name="sure_to_delete">vous ète sur de supprimé votre compte !</string>
+    <string name="user_deleted">Votre compte supprimé avec succé</string>
+    <string name="delet_profil">Supprimé mon compte</string>
+    <string-array name="product_form2">
+        <item>Sirop</item>
+        <item>Comprimé</item>
+        <item>Sachèt</item>
+        <item>Injection</item>
+        <item>Goutte</item>
+    </string-array>
+    <string name="delete_product">Supprimer</string>
+    <string name="update_product">Modifier</string>
+    <string name="product_deleted">Produit supprimé</string>
+    <string name="sure_to_delete_product">Vous ètes sur de supprimé ce produit</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="setting">Paramètre</string>
+    <string name="no_products">La liste des produit est vide</string>
+    <string name="update_product2">Modifier produit</string>
+    <string name="product_updated">Produit est à jour</string>
+    <string name="product_expiration">Date d`éxpiration</string>
+    <string name="product_life">Acceptable</string>
+    <string name="product_in_life">Expiré</string>
+    <string name="date_syntaxe">La date saisi avec la syntaxe suivant ex. 2019-12-31</string>
+    <string name="null_number">La quantité est supérieur à zéro(0)</string>
+    <string name="pharmasist_status">L`état</string>
+    <string name="disconnect">Déconnecter</string>
+    <string name="exit">Quitter</string>
+    <string name="dinar">DA</string>
+    <string name="kilo_meter">KM</string>
+    <string name="meter">M</string>
+    <string name="detail">Détaille</string>
+    <string name="title_activity_maps">Route</string>
+    <string name="your_position">Votre position</string>
+    <string name="pharmasist_position">Position du pharmacie</string>
+    <string name="address">Adress</string>
+    <string name="do_call">Appeller</string>
+    <string name="order_by">Trié par</string>
+    <string name="alphabet">Alphabet</string>
+    <string name="check_times">Vérifier l`ordenancement des heurs de travaille</string>
+    <string name="clear_history">Effacer l`historique</string>
+    <string name="ihave_account">j`ai déja un compte !</string>
+    <string name="idnthave_account">je n`ai pas un compte !</string>
+    <string name="do_you_want_active_gps">Voulez vous activer le GPS !</string>
+    <string name="checking_network">Vérification d`internet...</string>
+    <string name="checking_gps">Vérification du gps...</string>
+    <string name="copy_right">Copyright © UTMB</string>
+    <string name="say_something">Dit quelque chose</string>
+    <string name="about_desc">Cette application developpée par `ABID D` et `SELLAM N`.</string>
+    <string name="contact_us">Contacter nous</string>
+    <string name="our_email">abidmohamed93@gmail.com</string>
+    <string name="about">Apropos</string>
+</resources>

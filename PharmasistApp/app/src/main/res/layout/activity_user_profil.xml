@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:context="com.app.user.UserProfil">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="8"
+                android:drawableEnd="@drawable/edit"
+                android:drawableRight="@drawable/edit"
+                android:hint="@string/first_name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtLName2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="8"
+                android:drawableEnd="@drawable/edit"
+                android:drawableRight="@drawable/edit"
+                android:hint="@string/last_name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtPhone2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="8"
+                android:drawableEnd="@drawable/phone"
+                android:drawableRight="@drawable/phone"
+                android:hint="@string/phone_number"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/txtUser2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="7"
+                android:drawableEnd="@drawable/user"
+                android:drawableRight="@drawable/user"
+                android:hint="@string/user_name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/txtPass2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="8"
+                android:drawableEnd="@drawable/password"
+                android:drawableRight="@drawable/password"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtStartMoorning2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:drawableEnd="@drawable/time"
+                    android:drawableRight="@drawable/time"
+                    android:ems="10"
+                    android:hint="@string/start_moorning"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/txtEndMoorning2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:drawableEnd="@drawable/time"
+                    android:drawableRight="@drawable/time"
+                    android:ems="10"
+                    android:hint="@string/end_moorning"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+
+                <EditText
+                    android:id="@+id/txtStartEvening2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:drawableEnd="@drawable/time"
+                    android:drawableRight="@drawable/time"
+                    android:ems="10"
+                    android:hint="@string/start_evening"
+                    android:inputType="text" />
+
+                <EditText
+                    android:id="@+id/txtEndEvening2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
+                    android:drawableEnd="@drawable/time"
+                    android:drawableRight="@drawable/time"
+                    android:ems="10"
+                    android:hint="@string/end_evening"
+                    android:inputType="text" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/updatePosition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="8"
+                android:text="@string/update_location" />
+
+            <Button
+                android:id="@+id/btnUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/buttons_style"
+                android:onClick="update"
+                android:text="@string/save" />
+
+            <Button
+                android:id="@+id/btnDeleteProfil"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="8"
+                android:background="@drawable/buttons_style"
+                android:onClick="deleteProfil"
+                android:text="@string/delet_profil" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

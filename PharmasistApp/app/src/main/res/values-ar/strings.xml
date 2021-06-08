@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">صيدلي المدينة</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">تسجيل</string>
+    <string name="back">رجوع</string>
+    <string name="first_name">اللقب</string>
+    <string name="last_name">الاسم</string>
+    <string name="phone_number">الهاتف</string>
+    <string name="user_name">البريد الالكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="pharmasist">صيدلي</string>
+    <string name="client">Client</string>
+    <string name="start_moorning">بداية الفترة الصباحية</string>
+    <string name="end_moorning">نهاية الفترة الصباحية</string>
+    <string name="start_evening">بداية الفترة المسائية</string>
+    <string name="end_evening">نهاية الفترة المسائية</string>
+    <string name="blank_field">لايمكن لهذا المستطيل ان يبقى فارغا</string>
+    <string name="name_syntaxe">يجب ان يحتو الاسم على حروف كبيرة او صغيرة فقط</string>
+    <string name="password_syntaxe">Ce champ doit ètre contient juste des lettre (a-z) maj ou min</string>
+    <string name="phone_syntaxe">يجب ان يبتدأ رقم الهاتف ب 05 او 06 او 07 وان لا يتجاوز عدده 10 ارقام</string>
+    <string name="username_syntaxe">aaa@aaa.aaa : يجب ان تكتب الايميل بالصيفة التالية مثلا</string>
+    <string name="number_syntaxe">هذا الحقل يقبل الارقام فقط</string>
+    <string name="price_syntaxe">يجب ان تكتب السعر على النحو التالي مثلا : 1000.00</string>
+    <string name="dose_syntaxe">50/100 ml, 100 ml ou bien 0.01 ml : يجب ان تكتب الجرعة على الشكل التالي مثلا</string>
+    <string name="time_syntaxe">يجب ان تدخل الساعة على الشكل التالي س:د:ث بصيغة 24 ساعة</string>
+    <string name="syntaxe_wrong">تفقد هذا الحقل جيدا</string>
+    <string name="gps_disable">قم بتشغيل زر الوقع GPS</string>
+    <string name="permession_denied">تم رفض طلب الحصول على الموقع</string>
+    <string name="loading">الرجاء الانتظار</string>
+    <string name="cheking">جاري التحقق</string>
+    <string name="check_your_internet">تفقد الاتصال بالانترنت</string>
+    <string name="user_exist">الايميل مستخدم من قبل</string>
+    <string name="phone_exist">رقم الهاتف مستخدم من قبل</string>
+    <string name="location_err">خطأ اثناء الحصول على موقعك</string>
+    <string name="err_getting_info">خطأ اثناء استرجاع المعلومات</string>
+    <string name="user_saved">تم التسجيل بنجاح</string>
+    <string name="server_response">أجابة الخادم</string>
+    <string name="user_pass_wrong">الايميل او كلمة المرور غير مناسبة</string>
+    <string name="product_added">تمت اضافة الدواء بنجاح</string>
+    <string name="register_infos">
+        - كل الحقول مهمة\n
+        - لاتقم بالتسجيل اذا لم تكن صيدلي او تملك صيدلية\n
+        - عندما تريد التسجيل وجب ان تكون بمقر صيدليتك لان التطبيق يستخدم احداثيات موقع صيدليتك\n
+        - شكرا لتفهمك.....\n
+    </string>
+    <string name="i_inderstand">أنا اعلم هذا</string>
+    <string name="profile">الصفحة الشخصية</string>
+    <string name="product_managment">إضافة دواء</string>
+    <string name="about_us">حول التطبيق</string>
+    <string name="save">حفظ</string>
+    <string name="update_location">تحديث موقع الصيدلية ايضا</string>
+    <string name="open">مفتوح</string>
+    <string name="close">مغلق</string>
+    <string name="user_updated">تم حفظ البيانات بنجاح</string>
+    <string name="attention">حذاري !</string>
+    <string name="search_here">ابحث هنا</string>
+    <string name="product_name">اسم الدواء</string>
+    <string name="product_form">نوع الدواء</string>
+    <string name="product_cntr">الجرعة</string>
+    <string name="product_quantity">الكمية</string>
+    <string name="product_price">السعر</string>
+    <string name="distance">المسافة</string>
+    <string name="full_name">صيدلية</string>
+    <string name="use_it_if_you_change_position">
+        هذه الخاصية تستعمل اذا قمت بتغيير محل الصيدلية الخاص بك
+    </string>
+    <string name="sure_to_delete">هل انت متأكد من انك تريد حذف حسابك</string>
+    <string name="user_deleted">تم حذف حسابك بنجاح</string>
+    <string name="delet_profil">حذف حسابي</string>
+    <string-array name="product_form2">
+        <item>Sirop</item>
+        <item>Comprimé</item>
+        <item>Sachèt</item>
+        <item>Injection</item>
+        <item>Goutte</item>
+    </string-array>
+    <string name="delete_product">حذف</string>
+    <string name="update_product">تعديل</string>
+    <string name="product_deleted">تم الحذف بنجاح</string>
+    <string name="sure_to_delete_product">هل انت متأكد من انك تريد حذف الدواء</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="setting">الاعدادات</string>
+    <string name="no_products">قائمة الادوية فارغة</string>
+    <string name="update_product2">تعديل الدواء</string>
+    <string name="product_updated">تم التحديث بنجاح</string>
+    <string name="product_expiration">تاريخ نهاية الصلاحية</string>
+    <string name="product_life">قابل للاستعمال</string>
+    <string name="product_in_life">منتهي الصلاحية</string>
+    <string name="date_syntaxe">يجب ان يكون التاريخ بالشكل التالي مثلا : 31-12-2019</string>
+    <string name="null_number">يجب ان تكون الكمية اكبر تماما من الصفر</string>
+    <string name="pharmasist_status">الحالة</string>
+    <string name="disconnect">تسجيل الخروج</string>
+    <string name="exit">خروج</string>
+    <string name="dinar">دج</string>
+    <string name="kilo_meter">كم</string>
+    <string name="meter">م</string>
+    <string name="detail">المزيد</string>
+    <string name="title_activity_maps">الطريق</string>
+    <string name="your_position">موقعك الحالي</string>
+    <string name="checking_network">جاري تفقد الاتصال بالانترنت...</string>
+    <string name="pharmasist_position">موقع الصيدلية</string>
+    <string name="address">لعنوان</string>
+    <string name="do_call">إتصل الان</string>
+    <string name="order_by">ترتيب حسب</string>
+    <string name="alphabet">الاحرف</string>
+    <string name="check_times">تفقد ترتيب اوقات العمل</string>
+    <string name="clear_history">حذف التاريخ</string>
+    <string name="ihave_account">لدي حساب مسبقا !</string>
+    <string name="idnthave_account">ليس لدي حساب مسبقا !</string>
+    <string name="do_you_want_active_gps">هل تريد تفعيل حالة التموقع ؟</string>
+    <string name="checking_gps">جاري تفقد حالة الموقع...</string>
+    <string name="copy_right">Copyright © UTMB</string>
+    <string name="say_something">قل شيئا</string>
+    <string name="about_desc">.تم تطوير هذا التطبيق بواسطة `عبيد ض` و `سلام م`</string>
+    <string name="contact_us">لتواصل معنا</string>
+    <string name="our_email">abidmohamed93@gmail.com</string>
+    <string name="about">حول</string>
+</resources>

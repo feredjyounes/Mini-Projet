@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    tools:context="com.app.user.AddProduct">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtProductName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="8"
+                android:drawableEnd="@drawable/ordonance"
+                android:drawableRight="@drawable/ordonance"
+                android:hint="@string/product_name"
+                android:inputType="text" />
+
+            <Spinner
+                android:id="@+id/spinnerForm"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginBottom="20dp"
+                android:entries="@array/product_form2"
+                android:spinnerMode="dialog" />
+
+            <EditText
+                android:id="@+id/txtProductuDose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="8"
+                android:drawableEnd="@drawable/dose"
+                android:drawableRight="@drawable/dose"
+                android:hint="@string/product_cntr"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtProductuQantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="7"
+                android:drawableEnd="@drawable/quantity"
+                android:drawableRight="@drawable/quantity"
+                android:hint="@string/product_quantity"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txttxtProductuPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="8"
+                android:drawableEnd="@drawable/price"
+                android:drawableRight="@drawable/price"
+                android:hint="@string/product_price"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/txtProductExpiration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="8"
+                android:drawableEnd="@drawable/date"
+                android:drawableRight="@drawable/date"
+                android:ems="10"
+                android:hint="@string/product_expiration" />
+
+            <Button
+                android:id="@+id/btnAddProduct2"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/buttons_style"
+                android:onClick="addProduct"
+                android:text="@string/product_managment" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
